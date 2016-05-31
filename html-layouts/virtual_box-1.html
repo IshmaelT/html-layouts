@@ -122,11 +122,11 @@
 							</h2>
 						</div>
 						<div class="small_panel_body font_chosen" style="font-size:small;padding-top:10px;padding-left: 10px;padding-bottom: 10px;border-right-width: 10px;">
-							<div style="width:40%;display:inline-block;float:left;"> 
+							<div style="width:30%;display:inline-block;float:left;"> 
 								<p style="margin-top:0px;margin-bottom: 0px;">Name:</p> 
 								<p style="margin-top:0px;margin-bottom: 0px;">Operating System:</p> 
 							</div>
-							<div style="width:55%;display:inline-block;"> 
+							<div style="width:65%;display:inline-block;"> 
 								<p style="margin-top:0px;margin-bottom:0px;">Windows 7 Ultimate</p> 
 								<p style="margin-top:0px;margin-bottom:0px;">Windows 7 (64 bit)</p> 
 							</div>
@@ -141,12 +141,12 @@
 							</h2>
 						</div>
 						<div class="small_panel_body font_chosen" style="font-size:small;padding-top:10px;padding-left: 10px;padding-bottom: 10px;border-right-width: 10px;">
-							<div style="width:30%;display:inline-block;float:left;"> 
+							<div style="width:25%;display:inline-block;float:left;"> 
 								<p style="margin-top:0px;margin-bottom: 0px;">Base Memory:</p> 
 								<p style="margin-top:0px;margin-bottom: 0px;">Boot Order: </p> 
 								<p style="margin-top:0px;margin-bottom: 0px;">Acceleration:</p> 
 							</div>
-							<div style="width:65%;display:inline-block;"> 
+							<div style="width:70%;display:inline-block;"> 
 								<p style="margin-top:0px;margin-bottom:0px;">4096 </p> 
 								<p style="margin-top:0px;margin-bottom:0px;">Floppy, Optical, Hard Disk </p> 
 								<p style="margin-top:0px;margin-bottom:0px;">VT-x//AMD-V,Nested Paging, Hyper-V Paravirtualization </p> 
@@ -156,14 +156,14 @@
 					
 				</div> 
 				<!-- The rest of the divs are independant below the top right div --------------------------------------->
-				<div class="small_panel half_size big_width">
+				<div class="small_panel half_size big_width" style="">
 						<div class="small_panel_header">
 						<img src="ico1.png" style="margin-left:10px;margin-top:5px;display: inline-block;vertical-align: text-top;"/>
 							<h2 class="padding_sm_panel font_chosen" style="margin-top:8px;vertical-align: text-top;display: inline-block;">
 								 Preview
 							</h2>
 						</div>
-						<div class="small_panel_body font_chosen" style="font-size:small;padding-top:10px;padding-left: 10px;padding-bottom: 10px;border-right-width: 10px;">
+						<div class="small_panel_body font_chosen" style="font-size:small;padding-top: 0px;padding-left: 0px;padding-bottom: 0px;/* border-right-width: 0px; */padding-right: 0px;">
 							<p>
 							<div class="real_black_screen" >
 								
@@ -479,9 +479,9 @@ float:left;
 	margin-left:5px;
 	margin-right:5px;
 	background: linear-gradient(white,white),linear-gradient(#EAEAEA, #D7D7D7);
-    background-size: 100% 60%; 
-    background-repeat: no-repeat;
-    background-position: 0% 100%, 0% 0%;
+    //background-size: 100% 60%; 
+    //background-repeat: no-repeat;
+    //background-position: 0% 100%, 0% 0%;
 	border-radius:10px;
 	border-style: solid;
 	height:60px;
@@ -507,10 +507,14 @@ float:left;
 
 .big_width {
 	height:30%;
-	float:right;
+	//float:right;
 	background-size: 100% 90%;
 	overflow:hidden;
 	display:table;	
+    //margin-right: 20px;
+	position: relative;
+    left: 3.3%;
+	
 }
 
 .sizable_flow {
@@ -533,7 +537,6 @@ float:left;
 
 .real_black_screen {
 	margin-top:30px;
-	width:80%;
 	height: 150px;
 	border-radius:10px;
 	background: linear-gradient(315deg,#000000, #1E1E1E);
@@ -545,8 +548,9 @@ float:left;
 	box-shadow: 0 0 10px #000000;
 	background-repeat: no-repeat;
 	margin-top: 0px;
-    position: relative;
-    left: 15;
+    margin-left: 10%;
+    margin-right: 10%;
+
 	
 }
 
