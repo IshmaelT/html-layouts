@@ -28,6 +28,8 @@
 					<img src="3.png"/>
 					<p style="margin-top:0;margin-bottom:0;text-align: center;">Start</p>
 				</div>
+				<div class="arrow-down" style="display:inline-block;">
+				</div>
 			</div>
 		</div>
 		<div class="top_dividers">
@@ -122,11 +124,11 @@
 							</h2>
 						</div>
 						<div class="small_panel_body font_chosen" style="font-size:small;padding-top:10px;padding-left: 10px;padding-bottom: 10px;border-right-width: 10px;">
-							<div style="width:30%;display:inline-block;float:left;"> 
+							<div style="width:20%;display:inline-block;float:left;"> 
 								<p style="margin-top:0px;margin-bottom: 0px;">Name:</p> 
 								<p style="margin-top:0px;margin-bottom: 0px;">Operating System:</p> 
 							</div>
-							<div style="width:65%;display:inline-block;"> 
+							<div style="width:75%;display:inline-block;"> 
 								<p style="margin-top:0px;margin-bottom:0px;">Windows 7 Ultimate</p> 
 								<p style="margin-top:0px;margin-bottom:0px;">Windows 7 (64 bit)</p> 
 							</div>
@@ -141,12 +143,12 @@
 							</h2>
 						</div>
 						<div class="small_panel_body font_chosen" style="font-size:small;padding-top:10px;padding-left: 10px;padding-bottom: 10px;border-right-width: 10px;">
-							<div style="width:25%;display:inline-block;float:left;"> 
+							<div style="width:20%;display:inline-block;float:left;"> 
 								<p style="margin-top:0px;margin-bottom: 0px;">Base Memory:</p> 
 								<p style="margin-top:0px;margin-bottom: 0px;">Boot Order: </p> 
 								<p style="margin-top:0px;margin-bottom: 0px;">Acceleration:</p> 
 							</div>
-							<div style="width:70%;display:inline-block;"> 
+							<div style="width:75%;display:inline-block;"> 
 								<p style="margin-top:0px;margin-bottom:0px;">4096 </p> 
 								<p style="margin-top:0px;margin-bottom:0px;">Floppy, Optical, Hard Disk </p> 
 								<p style="margin-top:0px;margin-bottom:0px;">VT-x//AMD-V,Nested Paging, Hyper-V Paravirtualization </p> 
@@ -188,13 +190,13 @@
 					</h2>
 				</div>
 				<div class="small_panel_body font_chosen" style="font-size:small;padding-top:10px;padding-left: 10px;padding-bottom: 10px;border-right-width: 10px;">
-					<div style="width:25%;display:inline-block;float:left;"> 
+					<div style="width:16%;display:inline-block;float:left;"> 
 						<p style="margin-top:0px;margin-bottom: 0px;">Video Memory:</p> 
 						<p style="margin-top:0px;margin-bottom: 0px;">Acceralation:</p> 
 						<p style="margin-top:0px;margin-bottom: 0px;">Remote Desktop Server:</p> 
 						<p style="margin-top:0px;margin-bottom: 0px;">Video Capture:</p> 
 					</div>
-					<div style="width:70%;display:inline-block;"> 
+					<div style="width:79%;display:inline-block;"> 
 						<p style="margin-top:0px;margin-bottom:0px;">256MB</p> 
 						<p style="margin-top:0px;margin-bottom:0px;">2D Video, 3D</p> 
 						<p style="margin-top:0px;margin-bottom:0px;">Disabled</p> 
@@ -294,7 +296,24 @@
 						<p style="margin-top:0px;margin-bottom: 0px;">None:</p> 
 					</div>
 					<div style="width:80%;display:inline-block;"> 
-						<p style="margin-top:0px;margin-bottom:0px;">Intel PRO/1000 MT Desktop (NAT)</p> 
+						<p style="margin-top:0px;margin-bottom:0px;"> </p> 
+					</div>
+				</div>
+			</div>
+			
+			<div class="small_panel long_width stretch_handled" style="float:left;">
+				<div class="small_panel_header">
+				<img src="ico9.png" style="margin-left:10px;margin-top:5px;display: inline-block;vertical-align: text-top;"/>
+					<h2 class="padding_sm_panel font_chosen" style="margin-top:8px;vertical-align: text-top;display: inline-block;">
+						 Description
+					</h2>
+				</div>
+				<div class="small_panel_body font_chosen" style="font-size:small;padding-top:10px;padding-left: 10px;padding-bottom: 10px;border-right-width: 10px;">
+					<div style="width:15%;display:inline-block;float:left;"> 
+						<p style="margin-top:0px;margin-bottom: 0px;">None:</p> 
+					</div>
+					<div style="width:80%;display:inline-block;"> 
+						<p style="margin-top:0px;margin-bottom:0px;"> </p> 
 					</div>
 				</div>
 			</div>
@@ -313,6 +332,15 @@
 </body>
 
 <style type="text/css" >
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  
+  border-top: 5px solid black;
+}
 
 .small_panel_header {
 	height:40px;
@@ -428,7 +456,7 @@
 	//top:150px;
 	background:white;
 	width: calc(100% - 5px);
-	height:900px;
+	height:1000px;
 	border:solid;
 	border-style: ridge;
 }
@@ -506,7 +534,7 @@ float:left;
 }
 
 .big_width {
-	height:30%;
+	height:25%;
 	//float:right;
 	background-size: 100% 90%;
 	overflow:hidden;
@@ -514,6 +542,7 @@ float:left;
     //margin-right: 20px;
 	position: relative;
     left: 3.3%;
+	//min-width:240px;
 	
 }
 
@@ -550,6 +579,7 @@ float:left;
 	margin-top: 0px;
     margin-left: 10%;
     margin-right: 10%;
+	//min-width:200px;
 
 	
 }
